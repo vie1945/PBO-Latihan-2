@@ -1,0 +1,38 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "TestTV",
+      "request": "launch",
+      "mainClass": "TestTV",
+      "projectName": "lat java_2f30eebb"
+    },
+    {
+      "type": "java",
+      "name": "testtv",
+      "request": "launch",
+      "mainClass": "testtv",
+      "projectName": "lat java_c415a17c"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "d:/lat java",
+      "program": "d:/lat java/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
